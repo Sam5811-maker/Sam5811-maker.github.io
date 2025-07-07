@@ -4,9 +4,10 @@ title: Shravan Samudrala
 subtitle: Software Developer
 ---
 
-# 👋 Hello! I'm Shravan Samudrala
+![Shravan Samudrala]({{ site.avatar }}){: .avatar-img }
 
-I'm a **dynamic software developer** with a background in **project management** and **Salesforce administration**, currently transitioning into **full-stack development**.
+# 👋 Hey there!  
+I'm Shravan Samudrala, a full-stack developer focused on building accessible, user-friendly applications...
 
 ---
 
