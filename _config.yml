@@ -21,8 +21,8 @@ author: Shravan Samudrala
 
 navbar-links:
   About Me: "aboutme"
-  Resume: 
-  Projects: 
+  Resume: "resume"
+  Projects: https://github.com/Sam5811-maker?tab=repositories 
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
@@ -55,7 +55,7 @@ social-network-links:
   email: "someone@example.com"
   # rss: true  # remove this line if you don't want to show an RSS link at the bottom
   # facebook: 
-  github: https://github.com/Sam5811-maker
+  github: /Sam5811-maker
   # twitter: daattali
   # patreon: DeanAttali
   # youtube: "@daattali"
@@ -104,7 +104,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+# url-pretty: "MyWebsite.com"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -119,10 +119,10 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 # Add a search button to the navbar
-post_search: true
+# post_search: true
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
-edit_page_button: true
+# edit_page_button: true
 
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
