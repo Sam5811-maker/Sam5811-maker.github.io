@@ -4,13 +4,39 @@ title: Shravan Samudrala
 subtitle: Software Developer
 ---
 
-My name is Shravan Samudrala. I have the following qualities:
+# 👋 Hello! I'm Shravan Samudrala
 
-I am a dynamic software developer with a background in project management and Salesforce administration, transitioning into full-stack development. Experienced in JavaScript, React, Java, Spring Boot, and SQL, with a strong foundation in problem-solving and scalable system design. Passionate about leveraging
+I'm a **dynamic software developer** with a background in **project management** and **Salesforce administration**, currently transitioning into **full-stack development**.
+
+---
+
+## 💡 About Me
+
+I bring a versatile skill set that bridges both business strategy and technical execution. I'm experienced with:
+
+- ⚙️ **JavaScript**, **React**, **Java**, **Spring Boot**, and **SQL**
+- 🔍 Strong foundation in **problem-solving**, **scalable system design**, and **collaborative development**
+- 💼 Adept at translating complex requirements into efficient, elegant code
+
+I'm passionate about leveraging my technical expertise and collaborative spirit to build innovative solutions that enhance user experience and deliver real-world impact.
+
+---
+
+## 📌 What I'm Looking For
+
+I’m seeking opportunities where I can:
+
+- Build meaningful applications
+- Contribute to cross-functional teams
+- Grow in a fast-paced, collaborative environment
+
+Let’s connect and create something impactful together.
+
+
 <!-- - I rock a great mustache
-- I'm extremely loyal to my family
+- I'm extremely loyal to my family -->
 
-What else do you need? -->
+<!-- What else do you need? -->
 
 <!-- ### My story -->
 
