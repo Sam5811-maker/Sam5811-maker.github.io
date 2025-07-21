@@ -1,169 +1,168 @@
-[//]: # (---)
+---
+layout: post
 
-[//]: # (layout: post)
+title: Sample blog post to learn markdown tips
 
-[//]: # (title: Sample blog post to learn markdown tips)
+subtitle: There's lots to learn!
 
-[//]: # (subtitle: There's lots to learn!)
+gh-repo: daattali/beautiful-jekyll
 
-[//]: # (gh-repo: daattali/beautiful-jekyll)
+gh-badge: [star, fork, follow]
 
-[//]: # (gh-badge: [star, fork, follow])
+tags: [test]
 
-[//]: # (tags: [test])
+comments: true
 
-[//]: # (comments: true)
+mathjax: true
 
-[//]: # (mathjax: true)
+author: Bill Smith
 
-[//]: # (author: Bill Smith)
+published: false
+---
 
-[//]: # (---)
 
-[//]: # ()
-[//]: # ({: .box-success})
+{: .box-success}
 
-[//]: # (This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown]&#40;https://markdowntutorial.com/&#41; - it'll teach you how to transform regular text into bold/italics/tables/etc.<br/>I also encourage you to look at the [code that created this post]&#40;https://raw.githubusercontent.com/daattali/beautiful-jekyll/master/_posts/2020-02-28-sample-markdown.md&#41; to learn some more advanced tips about using markdown in Beautiful Jekyll.)
+This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/tables/etc.<br/>I also encourage you to look at the [code that created this post](https://raw.githubusercontent.com/daattali/beautiful-jekyll/master/_posts/2020-02-28-sample-markdown.md) to learn some more advanced tips about using markdown in Beautiful Jekyll.
 
-[//]: # ()
-[//]: # (**Here is some bold text**)
 
-[//]: # ()
-[//]: # (## Here is a secondary heading)
+**Here is some bold text**
 
-[//]: # ()
-[//]: # ([This is a link to a different site]&#40;https://deanattali.com/&#41; and [this is a link to a section inside this page]&#40;#local-urls&#41;.)
 
-[//]: # ()
-[//]: # (Here's a table:)
+## Here is a secondary heading
 
-[//]: # ()
-[//]: # (| Number | Next number | Previous number |)
 
-[//]: # (| :------ |:--- | :--- |)
+[This is a link to a different site](https://deanattali.com/) and [this is a link to a section inside this page](#here-is-a-secondary-heading).
 
-[//]: # (| Five | Six | Four |)
 
-[//]: # (| Ten | Eleven | Nine |)
+Here's a table:
 
-[//]: # (| Seven | Eight | Six |)
 
-[//]: # (| Two | Three | One |)
+| Number | Next number | Previous number |
 
-[//]: # ()
-[//]: # (You can use [MathJax]&#40;https://www.mathjax.org/&#41; to write LaTeX expressions. For example:)
+| :------ |:--- | :--- |
 
-[//]: # (When \\&#40;a \ne 0\\&#41;, there are two solutions to \\&#40;ax^2 + bx + c = 0\\&#41; and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$)
+| Five | Six | Four |
 
-[//]: # ()
-[//]: # (How about a yummy crepe?)
+| Ten | Eleven | Nine |
 
-[//]: # ()
-[//]: # (![Crepe]&#40;https://beautifuljekyll.com/assets/img/crepe.jpg&#41;)
+| Seven | Eight | Six |
 
-[//]: # ()
-[//]: # (It can also be centered!)
+| Two | Three | One |
 
-[//]: # ()
-[//]: # (![Crepe]&#40;https://beautifuljekyll.com/assets/img/crepe.jpg&#41;{: .mx-auto.d-block :})
 
-[//]: # ()
-[//]: # (Here's a code chunk:)
+You can use [MathJax](https://www.mathjax.org/) to write LaTeX expressions. For example:
 
-[//]: # ()
-[//]: # (~~~)
+When \\(a \ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
-[//]: # (var foo = function&#40;x&#41; {)
 
-[//]: # (  return&#40;x + 5&#41;;)
+How about a yummy crepe?
 
-[//]: # (})
 
-[//]: # (foo&#40;3&#41;)
+![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg)
 
-[//]: # (~~~)
 
-[//]: # ()
-[//]: # (And here is the same code with syntax highlighting:)
+It can also be centered!
 
-[//]: # ()
-[//]: # (```javascript)
 
-[//]: # (var foo = function&#40;x&#41; {)
+![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg){: .mx-auto.d-block :}
 
-[//]: # (  return&#40;x + 5&#41;;)
 
-[//]: # (})
+Here's a code chunk:
 
-[//]: # (foo&#40;3&#41;)
 
-[//]: # (```)
+~~~
 
-[//]: # ()
-[//]: # (And here is the same code yet again but with line numbers:)
+var foo = function(x) {
 
-[//]: # ()
-[//]: # ({% highlight javascript linenos %})
+  return(x + 5);
 
-[//]: # (var foo = function&#40;x&#41; {)
+}
 
-[//]: # (  return&#40;x + 5&#41;;)
+foo(3)
 
-[//]: # (})
+~~~
 
-[//]: # (foo&#40;3&#41;)
 
-[//]: # ({% endhighlight %})
+And here is the same code with syntax highlighting:
 
-[//]: # ()
-[//]: # (## Boxes)
 
-[//]: # (You can add notification, warning and error boxes like this:)
+```javascript
 
-[//]: # ()
-[//]: # (### Notification)
+var foo = function(x) {
 
-[//]: # ()
-[//]: # ({: .box-note})
+  return(x + 5);
 
-[//]: # (**Note:** This is a notification box.)
+}
 
-[//]: # ()
-[//]: # (### Warning)
+foo(3)
 
-[//]: # ()
-[//]: # ({: .box-warning})
+```
 
-[//]: # (**Warning:** This is a warning box.)
 
-[//]: # ()
-[//]: # (### Error)
+And here is the same code yet again but with line numbers:
 
-[//]: # ()
-[//]: # ({: .box-error})
 
-[//]: # (**Error:** This is an error box.)
+{% highlight javascript linenos %}
 
-[//]: # ()
-[//]: # (## Local URLs in project sites {#local-urls})
+var foo = function(x) {
 
-[//]: # ()
-[//]: # (When hosting a *project site* on GitHub Pages &#40;for example, `https://USERNAME.github.io/MyProject`&#41;, URLs that begin with `/` and refer to local files may not work correctly due to how the root URL &#40;`/`&#41; is interpreted by GitHub Pages. You can read more about it [in the FAQ]&#40;https://beautifuljekyll.com/faq/#links-in-project-page&#41;. To demonstrate the issue, the following local image will be broken **if your site is a project site:**)
+  return(x + 5);
 
-[//]: # ()
-[//]: # (![Crepe]&#40;/assets/img/crepe.jpg&#41;)
+}
 
-[//]: # ()
-[//]: # (If the above image is broken, then you'll need to follow the instructions [in the FAQ]&#40;https://beautifuljekyll.com/faq/#links-in-project-page&#41;. Here is proof that it can be fixed:)
+foo(3)
 
-[//]: # ()
-[//]: # (![Crepe]&#40;{{ '/assets/img/crepe.jpg' | relative_url }}&#41;)
+{% endhighlight %}
 
-[//]: # ()
-[//]: # (<details markdown="1">)
 
-[//]: # (<summary>Click here!</summary>)
+## Boxes
 
-[//]: # (Here you can see an **expandable** section)
+You can add notification, warning and error boxes like this:
 
-[//]: # (</details>)
+
+### Notification
+
+
+{: .box-note}
+
+**Note:** This is a notification box.
+
+
+### Warning
+
+
+{: .box-warning}
+
+**Warning:** This is a warning box.
+
+
+### Error
+
+
+{: .box-error}
+
+**Error:** This is an error box.
+
+
+## Local URLs in project sites {#local-urls}
+
+
+When hosting a *project site* on GitHub Pages (for example, `https://USERNAME.github.io/MyProject`), URLs that begin with `/` and refer to local files may not work correctly due to how the root URL (`/`) is interpreted by GitHub Pages. You can read more about it [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). To demonstrate the issue, the following local image will be broken **if your site is a project site:**
+
+
+![Crepe](/assets/img/crepe.jpg)
+
+
+If the above image is broken, then you'll need to follow the instructions [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). Here is proof that it can be fixed:
+
+
+![Crepe]({{ '/assets/img/crepe.jpg' | relative_url }})
+
+
+<details>
+<summary>Click here!</summary>
+
+Here you can see an **expandable** section
+
+</details>
