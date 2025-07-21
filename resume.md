@@ -1,5 +1,3 @@
-# 🧑‍💻 Shravan Samudrala
-
 ---
 
 ## 🌟 Summary
