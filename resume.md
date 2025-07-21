@@ -1,4 +1,6 @@
 ---
+title: "Resume"
+---
 
 ## 🌟 Summary
 Dynamic software developer with a background in project management and Salesforce administration, transitioning into full-stack development. Experienced in JavaScript, React, Java, Spring Boot, and SQL with a strong foundation in scalable system design and problem-solving. Passionate about building innovative, efficient, and impactful solutions through collaboration and technical excellence.
